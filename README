@@ -1,0 +1,14 @@
+Para deplegar el contrato:
+
+```
+node deployContador.js
+```
+Hay que recuperar el address y escribirlo en main.js
+```
+CONTRACTADDRESS = 0xeladdresdelcontratoscasadodedeploy
+```
+
+Para lanzar el estress
+```
+N=NUMERODETRANSACCIONES node main.js
+```
